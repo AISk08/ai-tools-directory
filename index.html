@@ -42,25 +42,7 @@ a:hover{
 background:#0056b3;
 }
 </style>
-</head>
-<script>
-const search = document.querySelector("input");
-const cards = document.querySelectorAll(".card");
 
-search.addEventListener("keyup", function () {
-  const value = this.value.toLowerCase();
-
-  cards.forEach(card => {
-    const text = card.innerText.toLowerCase();
-
-    if (text.includes(value)) {
-      card.style.display = "block";
-    } else {
-      card.style.display = "none";
-    }
-  });
-});
-</script>
 <body>
 
 <h1>🤖 AI Tools Directory</h1>
